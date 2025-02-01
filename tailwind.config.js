@@ -17,6 +17,12 @@ module.exports = {
         "DanaMedium" : "Dana Medium",
         "DanaDemibold" : "Dana Demibold",
       },
+      container  : {
+        center : true,
+        padding : {
+        DEFAULT : "1rem",
+        }
+    }
     },
   },
   plugins: [],

@@ -18,5 +18,8 @@
         src: local("Dana Demibold") ,  url("../fonts/Dana/woff2/DanaFaNum-DemiBold.woff2") format("woff2");
         font-display: swap;
     }
+    body.dark-mode{
+        background-color: red;
+    }
     
 }
