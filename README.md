@@ -9,6 +9,6 @@ Technologies
 - Tailwind,
 - JavaScripts
 # Features
-CleanCode
-Responsive For all Devices
-Principled design
+- CleanCode
+- Responsive For all Devices
+- Principled design
