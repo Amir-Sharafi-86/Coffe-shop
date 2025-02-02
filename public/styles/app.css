@@ -1023,6 +1023,11 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .leading-\[28\.5px\] {
   line-height: 28.5px;
 }
@@ -1067,6 +1072,11 @@ video {
 .text-\[\#3D3D3D\] {
   --tw-text-opacity: 1;
   color: rgb(61 61 61 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#777777\] {
+  --tw-text-opacity: 1;
+  color: rgb(119 119 119 / var(--tw-text-opacity, 1));
 }
 
 .transition-colors {
@@ -1163,6 +1173,10 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-\[14px\] {
+    font-size: 14px;
   }
 }
 
