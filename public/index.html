@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/app.css">
 </head>
 <body class="font-Dana overflow-auto dark:bg-black">
-<header class="py-8 px-14">
+<header class="py-8 px-14 hidden md:block">
   <nav class="flex justify-between items-center">
     <div class="flex items-center">
       <div class="flex items-center ">
@@ -27,7 +27,25 @@
       <img src="./imges/header/Background (1).png"  alt="">
 =    </div>
   </nav>
-</header> 
+</header>
+<!-- Mobile Navigation -->
+<header class="px-3 py-2 block md:hidden">
+  <div class="flex items-center justify-between">
+    <img src="./imges/header/Menu-toggle.png" id="btn" alt="">
+    <p class="text-brown text-base font-DanaDemibold md:text-xl">خانه قهوه</p>
+    <img src="./imges/header/Container (1).png" alt="">
+  </div>
+  
+  </div>
+  </header>
+<div class="hidden" id="menu">
+  <ul class="flex  text-base transition-colors  gap-y-1.5 font-DanaMedium whitespace-nowrap flex-col justify-center items-center  bg-brown p-2">
+    <li><a href="" class="hover:text-brown menu-item " data-section="home">محصولات</a></li>
+    <li><a href="" class="hover:text-brown  mx-6">درباره ما</a></li>
+    <li><a href="" class="hover:text-brown ">تماس باما</a></li>
+  </ul>
+</div>
+
 <!-- === Main === -->
 <main>
   <section>
